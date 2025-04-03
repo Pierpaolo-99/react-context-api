@@ -3,7 +3,7 @@ export default function Footer() {
         <>
             <footer className="bg-dark text-light py-4">
                 <div className="container text-center">
-                    <p>&copy; {new Date().getFullYear()} My Blog. Tutti i diritti riservati.</p>
+                    <p>&copy; {new Date().getFullYear()} My Shop. Tutti i diritti riservati.</p>
                     <ul className="list-inline">
                         <li className="list-inline-item">
                             <a href="/privacy" className="text-light text-decoration-none">Privacy Policy</a>

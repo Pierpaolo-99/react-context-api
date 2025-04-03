@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import ProductContext from "../contexts/productContext";
 
-export default function PostsPage() {
+export default function ProductsPage() {
 
     const { products } = useContext(ProductContext)
 

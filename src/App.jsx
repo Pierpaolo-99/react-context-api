@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import ProductContext from './contexts/productContext'
 import DefaultLayout from "./layout/DefaultLayout"
-import PostsPage from "./pages/PostsPage"
+import ProductsPage from "./pages/ProductsPage"
 import Home from "./pages/Home"
 import Contacts from "./pages/Contacts"
 import Product from './pages/Product'
@@ -30,7 +30,7 @@ export default function App() {
           <Routes>
             <Route Component={DefaultLayout}>
               <Route path="/" Component={Home} />
-              <Route path="/products" Component={PostsPage} />
+              <Route path="/products" Component={ProductsPage} />
               <Route path="/products/:id" Component={Product} />
               <Route path="/contacts" Component={Contacts} />
             </Route>
