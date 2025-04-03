@@ -18,7 +18,6 @@ export default function ProductsPage() {
                                     style={{ aspectRatio: 1, objectFit: 'cover' }} />
                                 <div className="card-body">
                                     <h5 className="card-title">{product.title}</h5>
-                                    <p className="card-text">{product.description}</p>
                                     <NavLink to={`/products/${product.id}`} className='btn btn-primary'>Dettagli</NavLink>
                                 </div>
                             </div>
