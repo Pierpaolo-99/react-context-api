@@ -9,7 +9,7 @@ export default function ProductsPage() {
     return (
         <section className="py-5">
             <div className="container">
-                <h1 className="mb-4">I Nostri Post</h1>
+                <h1 className="mb-4">I Nostri Prodotti</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
                     {products.map((product) => (
                         <div className="col" key={product.id}>
